@@ -296,7 +296,7 @@ usage(const char *name)
 	fprintf(stderr,
 "Vanitygen %s (" OPENSSL_VERSION_TEXT ")\n"
 "Usage: %s [-vqnrik1NT] [-t <threads>] [-f <filename>|-] [<pattern>...]\n"
-"Generates a bitcoin receiving address matching <pattern>, and outputs the\n"
+"Generates a Litecoin Cash receiving address matching <pattern>, and outputs the\n"
 "address and associated private key.  The private key may be stored in a safe\n"
 "location or imported into a bitcoin client to spend any balance received on\n"
 "the address.\n"
@@ -331,9 +331,9 @@ version, name);
 int
 main(int argc, char **argv)
 {
-	int addrtype = 0;
-	int scriptaddrtype = 5;
-	int privtype = 128;
+    int addrtype = 28;              // LitecoinCash
+    int scriptaddrtype = 5;
+    int privtype = 176;             // LitecoinCash
 	int pubkeytype;
 	enum vg_format format = VCF_PUBKEY;
 	int regex = 0;
