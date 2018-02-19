@@ -37,4 +37,4 @@ Docker:
 Run these commands from the src dir to build and run a docker container that can compile vanitygen. Read the comments in Dockerfile for more info.
 
 docker build -t vanitygen .
-docker run -t vanitygen
+docker run -ti vanitygen
