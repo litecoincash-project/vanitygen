@@ -1,4 +1,8 @@
 Linux/OSX with GNU make:
+First install prerequisites (Ubuntu 18.04):
+sudo apt install libssl-dev libpcre3-dev
+
+Then build with:
 make
 
 Windows:
