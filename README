@@ -1,3 +1,13 @@
+The venerable vanity address miner, here adapted for LCC addresses
+in the P2PKH ("legacy") address format.
+
+See INSTALL for build instructions for Ubuntu 20.04. Either native
+Ubuntu or WSL2 works fine.
+
+Original readme below.
+
+----
+
 I'd like to present a standalone command line vanity address generator 
 called vanitygen.
 
