@@ -50,3 +50,10 @@ After dependencies have been prepared, open a Visual Studio command
 prompt window, and run:
 
 nmake /fMakefile.Win32 vanitygen.exe oclvanitygen.exe
+
+
+Docker:
+Run these commands from the src dir to build and run a docker container that can compile vanitygen. Read the comments in Dockerfile for more info.
+
+docker build -t vanitygen .
+docker run -ti vanitygen
